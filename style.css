@@ -1,6 +1,41 @@
 img {
     display: block;
+    position: relative;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    top: 90px;
+    width: 25%;
+  }
+  input[type=text] {
+    width: 30em;
+  }
+
+  #search-box{
+    /*width: 20%;*/
+    text-align: center;
+    position: relative;
+    top: 95px;
+  }
+
+  #buttons {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 100px;
+    text-align: center;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  
+  }
+  
+  li {
+    font-family: Arial;
+    font-size: small;
+    float: right;
+    padding: 10px;
   }
